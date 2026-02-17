@@ -11,6 +11,21 @@ React es una biblioteca de JavaScript de código abierto, desarrollada por Meta/
 
 Node.js es un entorno de ejecución de JavaScript de código abierto y multiplataforma, basado en el motor V8 de Google Chrome, que permite ejecutar código JavaScript fuera del navegador, principalmente en el lado del servidor (backend).
 
+# Estructura del Proyecto
+
+FreeRepository/
+|
+|
+|--CSS/  #Front
+|--JS/  #Back
+|--.html
+
+# Requisitos
+tener instalado 
+Node version 18
+npm
+MongoDB
+
 # Instalacion 
 
 1- COPIAR EL HTTPS
@@ -26,3 +41,6 @@ git clone C:\Users\Usuario12\Desktop\repo
 
 5-DESPUES DE CLONAR CORRECTAMENTE IR A LA TERMINAL DEL PROYECTO Y PONER EL SIGUIENTE COMANDO
 npm install
+
+
+# Ejecucion del proyecto
