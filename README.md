@@ -44,3 +44,4 @@ npm install
 
 
 # Ejecucion del proyecto
+Al inciar el proyecto ejecuta en el cmd .....
