@@ -1,0 +1,26 @@
+{
+  "name": "freerepository",
+  "version": "1.0.0",
+  "description": "En este proyecto trabajaremos en tener una pagina web para un grupo de estudiantes donde puedan conocer todas las universidades que esten en la UANL, usaremos (MongoDB, Express, React y Node.js)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jairo292/FreeRepository.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Jairo292/FreeRepository/issues"
+  },
+  "homepage": "https://github.com/Jairo292/FreeRepository#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3"
+  }
+}

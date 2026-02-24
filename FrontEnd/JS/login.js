@@ -16,7 +16,33 @@ document.getElementById('loginForm').addEventListener('submit', function(event)
         return;
     }
 
-    console.log(usuario, password);
+    fetch("http://localhost:3000/login", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+            usuario: usuario,
+            password: password
+        })
+    })
+    .then(response => response.json())
+    .then(data => {
+
+        if (data.token) {
+            alert("Login exitoso ✅");
+            console.log("Token recibido:", data.token);
+
+            localStorage.setItem("token", data.token);
+        } else {
+            alert("Error en el servidor");
+        }
+
+    })
+    .catch(error => {
+        console.error("Error:", error);
+        alert("Error al conectar con el servidor");
+    });
 });
 
 
